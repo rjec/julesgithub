@@ -1,82 +1,68 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.App {
-  text-align: center;
-  color: #333;
-}
-
-.App-header {
-  background-color: #282c34;
-  padding: 20px;
-  color: white;
-}
-
-.App-header h1 {
-  margin: 0;
-  font-size: 2em;
-}
-
-main {
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-}
-
-.blog-post {
-  max-width: 800px;
-  text-align: left;
-  line-height: 1.6;
-}
-
-.blog-post h1 {
-  font-size: 2em;
-  margin-bottom: 0.5em;
-}
-
-.blog-post .author-info {
-  color: #666;
-  font-size: 0.9em;
-  margin-bottom: 1.5em;
-}
-
-.blog-post h2 {
-  font-size: 1.5em;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-  border-bottom: 2px solid #eee;
-  padding-bottom: 0.3em;
-}
-
-.blog-post h3 {
-  font-size: 1.2em;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-}
-
-.blog-post p {
-  margin-bottom: 1em;
-}
-
-.blog-post ul {
-  padding-left: 20px;
-}
-
-.blog-post li {
-  margin-bottom: 0.5em;
-}
-
-.App-footer {
-  margin-top: 40px;
-  padding: 20px;
-  background-color: #f8f8f8;
-  border-top: 1px solid #ddd;
-  font-size: 0.9em;
-  color: #666;
-}
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f0f2f5;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .app-header {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .app-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .app-header p {
+    color: #666;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #0056b3;
+  }
+  
+  .card p {
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
