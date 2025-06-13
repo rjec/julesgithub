@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { ProductCatalogItem } from '../types';
-import { PERSONAL_MAIN_TITLE, PERSONAL_SUB_TITLE, PERSONAL_PRODUCTS, SAMHSA_COMPLIANCE_HEADING, SAMHSA_COMPLIANCE_INFO } from '../constants';
+import { PERSONAL_MAIN_TITLE, PERSONAL_SUB_TITLE, PERSONAL_PRODUCTS, SAMHSA_COMPLIANCE_HEADING, SAMHSA_COMPLIANCE_INFO } from '../constants.tsx';
 import PersonalProductCard from './PersonalProductCard';
 import LegalProductDetailsModal from './LegalProductDetailsModal'; // Reusing the modal from Legal page
 

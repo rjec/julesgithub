@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { NavItem } from '../types';
-import { CloseIcon } from '../constants';
+import { CloseIcon } from '../constants.tsx';
 
 interface HamburgerMenuProps {
   isOpen: boolean;

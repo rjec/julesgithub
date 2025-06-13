@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { CloseIcon } from '../constants';
+import { CloseIcon } from '../constants.tsx';
 
 interface ModalProps {
   title: string;

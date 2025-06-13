@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ProductCatalogItem } from '../types';
-import { BUSINESS_MAIN_TITLE, BUSINESS_PRODUCTS_CATALOG } from '../constants';
+import { BUSINESS_MAIN_TITLE, BUSINESS_PRODUCTS_CATALOG } from '../constants.tsx';
 import LegalCatalogCard from './LegalCatalogCard';
 import LegalProductDetailsModal from './LegalProductDetailsModal';
 

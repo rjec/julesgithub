@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { FlashcardItem } from '../types';
-import { HOME_WELCOME_BANNER, HOME_TAGLINE, HOME_MOTTO, HOME_FLASHCARDS } from '../constants';
+import { HOME_WELCOME_BANNER, HOME_TAGLINE, HOME_MOTTO, HOME_FLASHCARDS } from '../constants.tsx';
 import Flashcard from './Flashcard';
 
 interface HomePageProps {

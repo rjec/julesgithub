@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ProductCatalogItem } from '../types';
-import { RefreshCwIcon, InfoIcon } from '../constants'; // Assuming these icons are added to constants
+import { RefreshCwIcon, InfoIcon } from '../constants.tsx'; // Assuming these icons are added to constants
 
 interface PersonalProductCardProps {
   item: ProductCatalogItem;

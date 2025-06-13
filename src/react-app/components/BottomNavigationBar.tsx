@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { TabId } from '../types';
-import { TabConfig } from '../constants';
+import { TabConfig } from '../constants.tsx';
 
 
 interface BottomNavigationBarProps {

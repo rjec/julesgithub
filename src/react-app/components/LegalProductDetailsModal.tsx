@@ -2,7 +2,7 @@
 import React from 'react';
 import { ProductCatalogItem } from '../types'; // Updated type
 import Modal from './Modal'; 
-import { CloseIcon } from '../constants';
+import { CloseIcon } from '../constants.tsx';
 
 
 interface LegalProductDetailsModalProps {
