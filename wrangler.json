@@ -1,14 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "lts-kiosk",
-  "main": "./src/worker/index.ts",
+  "main": "src/worker/index.ts",
   "compatibility_date": "2025-04-01",
-  "compatibility_flags": ["nodejs_compat"],
-  "observability": {
-    "enabled": true
-  },
-  "upload_source_maps": true,
-  "assets": {
-    "not_found_handling": "single-page-application"
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "site": {
+    "bucket": "./dist"
   }
 }

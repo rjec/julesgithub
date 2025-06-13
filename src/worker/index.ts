@@ -1,4 +1,5 @@
 import { Hono } from 'hono';
+import { serveStatic } from 'hono/cloudflare-workers';
 
 // This is a Cloudflare worker, so we need to specify the bindings
 // for the environment variables.
@@ -33,5 +34,9 @@ app.post('/api/appointments', async (c) => {
 
 // Existing endpoint for demonstration
 app.get('/api/', (c) => c.json({ name: 'Cloudflare' }));
+
+app.get('*', serveStatic({ root: './' }))
+app.get('*', serveStatic({ path: './index.html' }))
+
 
 export default app;
