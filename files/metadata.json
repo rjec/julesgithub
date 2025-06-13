@@ -1,0 +1,6 @@
+{
+  "name": "LTS Kiosk",
+  "description": "A digital kiosk application for Lab Testing Solutions, providing quick access to services and information through an interactive, no-scroll interface with flashcards and modals.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
