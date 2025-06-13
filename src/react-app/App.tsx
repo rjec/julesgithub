@@ -1,7 +1,7 @@
 
 import React, { useState, useCallback } from 'react';
 import { TabId, FlashcardItem } from './types';
-import { HAMBURGER_MENU_ITEMS, HELP_MODAL_TITLE, AI_CHATBOT_PROMPT, HUMAN_CONTACT_PROMPT, PHONE_NUMBER, APP_TITLE, TAB_CONFIG, COPYRIGHT_INFO_2011, COPYRIGHT_INFO_2024, COMPLEX_ISSUES_TEXT, COMPLEX_ISSUES_URL, ChatBubbleIcon, PhoneOutgoingIcon, MenuIcon, HelpIcon } from './constants.tsx';
+import { HAMBURGER_MENU_ITEMS, HELP_MODAL_TITLE, AI_CHATBOT_PROMPT, HUMAN_CONTACT_PROMPT, PHONE_NUMBER, APP_TITLE, TAB_CONFIG, COPYRIGHT_INFO_2011, COPYRIGHT_INFO_2024, COMPLEX_ISSUES_TEXT, COMPLEX_ISSUES_URL, ChatBubbleIcon, MenuIcon, HelpIcon } from './constants.tsx';
 import TopNavigationBar from './components/TopNavigationBar';
 import BottomNavigationBar from './components/BottomNavigationBar';
 import Modal from './components/Modal';
